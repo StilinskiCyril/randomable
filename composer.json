@@ -1,0 +1,32 @@
+{
+    "name": "dotunj/randomable",
+    "description": "Test Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cyril Aguvasu",
+            "email": "aguvasucyril@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fzaninotto/faker": "1.9.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dotunj\\Randomable\\":"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dotunj\\Randomable\\RandomableServiceProvider"
+            ],
+            "aliases": {
+                "Randomable": "Dotunj\\Randomable\\Facades\\RandomableFacade"
+            }
+        }
+    }
+
+}
