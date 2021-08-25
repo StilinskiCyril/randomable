@@ -1,5 +1,5 @@
 {
-    "name": "cyril/randomable",
+    "name": "dotunj/randomable",
     "description": "Test Package",
     "type": "library",
     "license": "MIT",
@@ -10,9 +10,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "fzaninotto/faker": "1.9.x-dev"
-    },
     "autoload": {
         "psr-4": {
             "Dotunj\\Randomable\\":"src/"
@@ -27,6 +24,8 @@
                 "Randomable": "Dotunj\\Randomable\\Facades\\RandomableFacade"
             }
         }
+    },
+    "require": {
+        "fakerphp/faker": "^1.14"
     }
-
 }

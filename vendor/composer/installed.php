@@ -1,34 +1,54 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'cc34e211663589bcba62d684f927a65dd8772a80',
     'name' => 'dotunj/randomable',
   ),
   'versions' => 
   array (
     'dotunj/randomable' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'cc34e211663589bcba62d684f927a65dd8772a80',
     ),
-    'fzaninotto/faker' => 
+    'fakerphp/faker' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+        0 => '1.16.x-dev',
+      ),
+      'reference' => '3647f54490175f210e6246d1ee0a19c186757cf7',
+    ),
+    'psr/container' => 
     array (
       'pretty_version' => 'dev-master',
       'version' => 'dev-master',
       'aliases' => 
       array (
-        0 => '1.9.x-dev',
+        0 => '2.0.x-dev',
       ),
-      'reference' => '5ffe7db6c80f441f150fc88008d64e64af66634b',
+      'reference' => '2ae37329ee82f91efadc282cc2d527fd6065a5ef',
+    ),
+    'symfony/deprecation-contracts' => 
+    array (
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
+      'aliases' => 
+      array (
+        0 => '2.5.x-dev',
+      ),
+      'reference' => '6f981ee24cf69ee7ce9736146d1c57c2780598a8',
     ),
   ),
 );
